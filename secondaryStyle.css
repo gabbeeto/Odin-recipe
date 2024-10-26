@@ -1,0 +1,33 @@
+main{
+display: grid;
+grid-template-areas: 
+"img img"
+"overview ingredients"
+"howToDoit howToDoit";
+gap: 6px;
+
+}
+
+main > img {
+grid-area: img;
+justify-self: center;
+align-self: center;
+}
+
+section{
+background-color: var(--secondaryColor);
+padding: 5px;
+border-radius: 10px;
+
+}
+main > section:first-of-type {
+grid-area: overview;
+}
+
+main > section:nth-of-type(2) {
+grid-area: ingredients;
+}
+
+main > section:last-of-type {
+grid-area: howToDoit;
+}
