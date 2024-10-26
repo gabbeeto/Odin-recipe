@@ -5,7 +5,13 @@ grid-template-areas:
 "overview ingredients"
 "howToDoit howToDoit";
 gap: 6px;
+}
 
+h1{
+font-size: 2.5rem;
+}
+h2{
+font-size: 1.9rem;
 }
 
 main > img {
@@ -30,4 +36,9 @@ grid-area: ingredients;
 
 main > section:last-of-type {
 grid-area: howToDoit;
+}
+
+dt{
+font-size: 1.4rem;
+
 }
